@@ -1,0 +1,1 @@
+sequence,event_id,trade_date,side,ticker,name,market_minute,shares,fill_price,gross_value,commission,transfer_fee,stamp_tax,fees,realized_profit,order_id,data_status,execution_permission

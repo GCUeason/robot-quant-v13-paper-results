@@ -1,15 +1,21 @@
-# C2-A v1.3 PAPER_ONLY 结果
+# C2-A v1.3 PAPER_ONLY 模拟盘明细
 
-本仓库只发布经过白名单脱敏的自动运行状态。**不连接券商、不支持实盘、不构成收益承诺。**
+> **公开明细 · 仅模拟，非交易指令 · PAPER_ONLY / DATA_NOT_READY / MINUTE_BAR_PROXY**
 
-## 当前阶段
+- 最新交易日：`2026-08-26`
+- 现金 / 市值 / 权益：¥100,000.00 / ¥0.00 / ¥100,000.00
+- 累计模拟盈亏：不可用
+- **当前模拟持仓：无**
+- **当前新开仓许可：否（静态报告无可追入信号）**
+- 持仓 / 待成交：`0` / `0`
+- 估值：`NO_POSITIONS`
+- 数据 / 缺口 / 对账 / 因果：`DATA_NOT_READY / PASS / PASS / DATA_NOT_READY`
+- 会话完成证据 / 有效：`0 / False`
+- 源数据 / 当日 / 累计收益可计算：`False / False / False`
+- 晋级门：`FAIL`
 
-当前为 `SHADOW_ONLY_ROOT_DISK`：仅验证分钟数据可用性与因果时间，不创建模拟账户，不生成信号、订单、持仓或收益。
+[查看完整报告](reports/latest.md) · [当前持仓](data/current_positions.csv) · [全部成交](data/trades.csv) · [权益历史](data/equity_history.csv) · [可验证事件链](data/ledger_events.jsonl) · [查看 Shadow 运行状态](status/shadow/README.md)
 
-部署完成后的入口：
+本仓库只展示策略的纸面模拟账户，不会读取或显示券商实盘持仓。
 
-- 最新 Shadow 状态：`status/shadow/README.md`
-- 结构化状态：`status/shadow/latest.json`
-- 每日不可变证据：`status/shadow/daily/`
-
-正式 PAPER 阶段需要独立持久卷、严格数据源和两个真实交易日验收，并需再次人工确认。公开仓库届时仍只展示账户级收益汇总；股票代码、具体持仓和逐笔交易不会公开。
+**信号时效警告：静态报告无可追入信号；历史信号和已过期委托仅作审计证据，不是当前买卖指令。按原始成交追入会产生时点/价格偏差。 历史行不得解读为当前指令。**

@@ -1,0 +1,2 @@
+trade_date,nav,daily_pnl,daily_return,cumulative_pnl,cumulative_return,cash,market_value,equity,invested_capital,realized_profit,unrealized_profit,position_count,pending_order_count,data_status,valuation_status,performance_eligible,ledger_tail_hash
+2026-08-26,,,,,,100000.0,0,100000.0,0.0,0.0,0,0,0,DATA_NOT_READY,NO_POSITIONS,False,053ae58fe1936813bce0082259a9ecbf811b9b5094983db7d4ca8dec8a39ac2e
