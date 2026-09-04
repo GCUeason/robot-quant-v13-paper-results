@@ -1,0 +1,28 @@
+{
+  "data_status": "PROXY",
+  "execution_permission": "PAPER_ONLY",
+  "file_sizes": {
+    "README.md": 742,
+    "daily/2026-09-01.json": 724,
+    "daily/2026-09-02.json": 724,
+    "daily/2026-09-03.json": 724,
+    "daily/2026-09-04.json": 733,
+    "latest.json": 733
+  },
+  "files": {
+    "README.md": "c16b7742fec5570b94a4e1e8af95e29b374767d24e2a9d92b6b66eed396f5a46",
+    "daily/2026-09-01.json": "524bbb7c61d0d5f029d9fa98daff57d0563bef0ce8e79baea6e860286a559c9a",
+    "daily/2026-09-02.json": "bf42517f79efcdc4aab1a1252a7ff6de35a9d305d73affd0c871f9a8f1b65ea0",
+    "daily/2026-09-03.json": "f19940bd9440b1a8f4e1725986d81b161f4c72705ebb9fc1ecd0273ccf606cb0",
+    "daily/2026-09-04.json": "566f63050e69dd8a1bd321fe5b45cd237966b5b0a18c66754de22289167dfa42",
+    "latest.json": "566f63050e69dd8a1bd321fe5b45cd237966b5b0a18c66754de22289167dfa42"
+  },
+  "kind": "C2A_SHADOW_STATUS",
+  "latest_trade_date": "2026-09-04",
+  "paper_ledger_access": "FORBIDDEN",
+  "promotion_gate": "FAIL",
+  "real_trade_authorized": false,
+  "schema_version": 1,
+  "status": "PASS",
+  "storage_status": "NON_PERSISTENT_SHADOW_ROOT_DISK"
+}

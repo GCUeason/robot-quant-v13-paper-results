@@ -1,0 +1,23 @@
+{
+  "availability_seconds": 0.0,
+  "available_before_next_minute": false,
+  "coverage": 0.0,
+  "data_status": "PROXY",
+  "elapsed_seconds": 0.0,
+  "execution_permission": "PAPER_ONLY",
+  "failure_count": 0,
+  "market_minute": "09:31",
+  "paper_ledger_access": "FORBIDDEN",
+  "processing_mode": "RECONSTRUCTED",
+  "promotion_gate": "FAIL",
+  "provider": "tencent-qt.gtimg.cn",
+  "provider_version": "cumulative-minute-v1",
+  "real_trade_authorized": false,
+  "received_count": 0,
+  "schema_version": 1,
+  "source_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "status": "DATA_NOT_READY",
+  "storage_status": "NON_PERSISTENT_SHADOW_ROOT_DISK",
+  "target_count": 0,
+  "trade_date": "2026-09-02"
+}
