@@ -14,22 +14,28 @@
   "disclosure": "PAPER_ACCOUNT_DETAILS",
   "execution_permission": "PAPER_ONLY",
   "file_sizes": {
-    "README.md": 1249,
+    "README.md": 3394,
+    "data/agent_review_latest.json": 1373,
+    "data/current_orders.csv": 205,
     "data/current_positions.csv": 165,
     "data/daily/2026-08-26.json": 2087,
     "data/equity_history.csv": 398,
     "data/ledger_events.jsonl": 592,
     "data/trades.csv": 187,
-    "reports/latest.md": 2498
+    "reports/agent_review_latest.md": 1367,
+    "reports/latest.md": 4005
   },
   "files": {
-    "README.md": "d8482de50a9b7f0ddbfc90b892e6a8de5f7b38dd1275768e2017460ceb6fdd6a",
+    "README.md": "40622d2c541cdeee44d751fb1c5fb62ee55e57028de85fa22784dc02abfd770b",
+    "data/agent_review_latest.json": "7529116384ac5a70029a9be14746af2759061b151cc4dbe66b2f33b4455b46ea",
+    "data/current_orders.csv": "4b0705b3d020917471ef43b684979b5fda97a75f51d240e8f9402d7a4c346ae2",
     "data/current_positions.csv": "c6f9568b98f50d45d1f8fb47f79bd0171ef6cf8e3fb45e477a3747dc474f4c5b",
     "data/daily/2026-08-26.json": "c379822999f3b68673430d3a17c4d7378f55657af6bc650ae4576ad534b44251",
     "data/equity_history.csv": "1cee8ba39657b2539e4b66189314c33c15cb3ead7b05e35cd452c4e278279c0d",
     "data/ledger_events.jsonl": "57643b040d7f7e8306b409c0e143fc41f2f0d1f100dee91f4ab0edc47eabf450",
     "data/trades.csv": "707149a7fede01c07771445f14c7c7c30c4ff65d7e3ec9ee569a299a6ccd97ac",
-    "reports/latest.md": "c19d61f2cab97ee36ae8404f7150cd1a8e5c65fccc80b7a733a70b1f2ad66f0a"
+    "reports/agent_review_latest.md": "8b481f1d9e93021aa60441e46fce94292105d3780161d101bc859fb720e77683",
+    "reports/latest.md": "353b649c51d99dcbde7085cbc2107787735491834529b323f0632a34e365dc9f"
   },
   "gap_status": "PASS",
   "has_open_positions": false,

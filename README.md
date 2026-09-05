@@ -1,10 +1,18 @@
 # C2-A v1.3 PAPER_ONLY 模拟盘明细
 
 > **公开明细 · 仅模拟，非交易指令 · PAPER_ONLY / DATA_NOT_READY / MINUTE_BAR_PROXY**
+>
+> **静态页面不能提醒或授权手工追单；模拟委托只反映策略在有效期内的纸面动作。**
+
+## 一屏总览
 
 - 最新交易日：`2026-08-26`
+- 截止时间 / 最后完整分钟：`2026-08-26T03:25:46.192964+08:00` / `尚无`
+- 数据新鲜度：不可用；尚无可验证的完整分钟
 - 现金 / 市值 / 权益：¥100,000.00 / ¥0.00 / ¥100,000.00
-- 累计模拟盈亏：不可用
+- 当日总盈亏 / 收益率：不可用 / 不可用
+- 当日已实现 / 当前未实现盈亏：¥0.00 / ¥0.00
+- 累计盈亏 / 收益率：不可用 / 不可用
 - **当前模拟持仓：无**
 - **当前新开仓许可：否（静态报告无可追入信号）**
 - 持仓 / 待成交：`0` / `0`
@@ -14,7 +22,41 @@
 - 源数据 / 当日 / 累计收益可计算：`False / False / False`
 - 晋级门：`FAIL`
 
-[查看完整报告](reports/latest.md) · [当前持仓](data/current_positions.csv) · [全部成交](data/trades.csv) · [权益历史](data/equity_history.csv) · [可验证事件链](data/ledger_events.jsonl) · [查看 Shadow 运行状态](status/shadow/README.md)
+### 只读交易员治理 Agent
+
+- 证据状态 / 公开发布决定：可用 / `FAIL`
+- 私有源评审决定：`FAIL`
+- 首要阻断：`STRICT_REPORT_READY`
+- 硬门槛通过：`2 / 18`
+- 数据 / 因果 / 对账：`DATA_NOT_READY / False / True`
+- 策略版本 / 参数：`v1.3-causal / 不可用`
+- 权限边界：Agent 只读审查研究、因果、对账与风险证据；不参与确定性信号计算，不修改账本，也不能提交订单。
+- 公开证据边界：完整源报告只留在私有链；本公开包没有外部签名锚，不能独立授权 `REVIEW_REQUIRED`。
+
+### 当日模拟计划 / 委托状态
+
+| 方向 | 股票代码 | 简称 | 状态 | 总股数 | 已模拟成交 | 剩余 | 限价 | 生效分钟 | 到期分钟 | 未执行原因 |
+|---|---|---|---|---:|---:|---:|---:|---|---|---|
+| 无当日或未终结跨日模拟委托 | - | - | - | - | - | - | - | - | - | 公开账本未记录相关母单 |
+
+### 当前模拟持仓
+
+| 股票代码 | 简称 | 买入日 | 股数 | 含费成本 | 成本价 | 标记价 | 市值 | 未实现盈亏 | 盈亏率 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 暂无持仓 | - | - | - | - | - | - | - | - | - |
+
+### 权益曲线摘要
+
+- 权益曲线：不可用（收益资格链不连续或估值不完整，系统未推测缺失值）
+
+### 失败、未执行与数据原因
+
+- DATA_NOT_READY：数据尚未满足收益计算条件
+- CAUSALITY_NOT_PASSED：因果审计尚未通过
+- SESSION_INCOMPLETE：会话完成证据无效或缺失
+- PERFORMANCE_INELIGIBLE：当前数据不具备收益计算资格
+
+[查看完整报告](reports/latest.md) · [Agent 评审](reports/agent_review_latest.md) · [Agent JSON](data/agent_review_latest.json) · [当日模拟委托](data/current_orders.csv) · [当前持仓](data/current_positions.csv) · [全部成交](data/trades.csv) · [权益历史](data/equity_history.csv) · [可验证事件链](data/ledger_events.jsonl) · [查看 Shadow 运行状态](status/shadow/README.md)
 
 本仓库只展示策略的纸面模拟账户，不会读取或显示券商实盘持仓。
 

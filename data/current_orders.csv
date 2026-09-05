@@ -1,0 +1,1 @@
+order_id,trade_date,side,ticker,name,status,total_shares,filled_shares,remaining_shares,limit_price,submitted_at,active_minute,expires_minute,last_update_at,failure_reason,data_status,execution_permission
