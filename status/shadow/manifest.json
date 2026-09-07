@@ -2,27 +2,29 @@
   "data_status": "PROXY",
   "execution_permission": "PAPER_ONLY",
   "file_sizes": {
-    "README.md": 742,
+    "README.md": 749,
     "daily/2026-09-01.json": 724,
     "daily/2026-09-02.json": 724,
     "daily/2026-09-03.json": 724,
     "daily/2026-09-04.json": 733,
-    "latest.json": 733
+    "daily/2026-09-07.json": 724,
+    "latest.json": 724
   },
   "files": {
-    "README.md": "c16b7742fec5570b94a4e1e8af95e29b374767d24e2a9d92b6b66eed396f5a46",
+    "README.md": "52dd4a4666ef34dad856c3f4048e3571b008fcf7523661914945b0902edfac26",
     "daily/2026-09-01.json": "524bbb7c61d0d5f029d9fa98daff57d0563bef0ce8e79baea6e860286a559c9a",
     "daily/2026-09-02.json": "bf42517f79efcdc4aab1a1252a7ff6de35a9d305d73affd0c871f9a8f1b65ea0",
     "daily/2026-09-03.json": "f19940bd9440b1a8f4e1725986d81b161f4c72705ebb9fc1ecd0273ccf606cb0",
     "daily/2026-09-04.json": "566f63050e69dd8a1bd321fe5b45cd237966b5b0a18c66754de22289167dfa42",
-    "latest.json": "566f63050e69dd8a1bd321fe5b45cd237966b5b0a18c66754de22289167dfa42"
+    "daily/2026-09-07.json": "88942b1905faa78a438ddfaf6a5c99e6a630c830527652691a729c83a3829439",
+    "latest.json": "88942b1905faa78a438ddfaf6a5c99e6a630c830527652691a729c83a3829439"
   },
   "kind": "C2A_SHADOW_STATUS",
-  "latest_trade_date": "2026-09-04",
+  "latest_trade_date": "2026-09-07",
   "paper_ledger_access": "FORBIDDEN",
   "promotion_gate": "FAIL",
   "real_trade_authorized": false,
   "schema_version": 1,
-  "status": "PASS",
+  "status": "DATA_NOT_READY",
   "storage_status": "NON_PERSISTENT_SHADOW_ROOT_DISK"
 }
