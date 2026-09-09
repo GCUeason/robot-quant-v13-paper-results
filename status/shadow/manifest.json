@@ -9,20 +9,22 @@
     "daily/2026-09-04.json": 733,
     "daily/2026-09-07.json": 724,
     "daily/2026-09-08.json": 724,
+    "daily/2026-09-09.json": 724,
     "latest.json": 724
   },
   "files": {
-    "README.md": "a36f2cd169fd2dcb20c0bb33142fc76cef9b48095e35981d8281d0a7be0cc291",
+    "README.md": "6cc5ad61aa26e93a03e3ce2d3ca38837b1e2478dcf8e67b5c9df9b618fe8a692",
     "daily/2026-09-01.json": "524bbb7c61d0d5f029d9fa98daff57d0563bef0ce8e79baea6e860286a559c9a",
     "daily/2026-09-02.json": "bf42517f79efcdc4aab1a1252a7ff6de35a9d305d73affd0c871f9a8f1b65ea0",
     "daily/2026-09-03.json": "f19940bd9440b1a8f4e1725986d81b161f4c72705ebb9fc1ecd0273ccf606cb0",
     "daily/2026-09-04.json": "566f63050e69dd8a1bd321fe5b45cd237966b5b0a18c66754de22289167dfa42",
     "daily/2026-09-07.json": "88942b1905faa78a438ddfaf6a5c99e6a630c830527652691a729c83a3829439",
     "daily/2026-09-08.json": "b6460b0d58867b2b0fdfb30dbe6118da2a02e9baf0198c44a3fd7ea704131677",
-    "latest.json": "b6460b0d58867b2b0fdfb30dbe6118da2a02e9baf0198c44a3fd7ea704131677"
+    "daily/2026-09-09.json": "1d57352bba49dd87d0f2910c1aad7c1dad4239fd388eea503207fdce0a6c8cb3",
+    "latest.json": "1d57352bba49dd87d0f2910c1aad7c1dad4239fd388eea503207fdce0a6c8cb3"
   },
   "kind": "C2A_SHADOW_STATUS",
-  "latest_trade_date": "2026-09-08",
+  "latest_trade_date": "2026-09-09",
   "paper_ledger_access": "FORBIDDEN",
   "promotion_gate": "FAIL",
   "real_trade_authorized": false,
