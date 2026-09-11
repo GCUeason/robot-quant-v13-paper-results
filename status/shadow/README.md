@@ -2,7 +2,7 @@
 
 > **PAPER_ONLY / PROXY / promotion gate: FAIL**
 
-- 交易日：`2026-09-10`
+- 交易日：`2026-09-11`
 - 目标完整分钟：`09:31`
 - Shadow 状态：`DATA_NOT_READY`
 - 覆盖率：`0.00%`
